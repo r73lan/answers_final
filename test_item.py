@@ -54,9 +54,9 @@ class TestPostItem:
         validate(json_get_data, schema=SCHEMA_GET_ITEMS_200_SUCCESS)
 
         created_adv_data = json_get_data[0]
-        assert created_adv_data["sellerId"] == data_1["sellerID"], f'sellerIds error during creting adv: "{created_adv_data["sellerId"]}" doesnt equal with added in database: "{created_adv_data["sellerID"]}"'
-        assert created_adv_data["name"] == data_1["name"], f'names error during creting adv: "{created_adv_data["name"]}" doesnt equal with added in database: "{created_adv_data["name"]}"'
-        assert created_adv_data["price"] == data_1["price"], f'prices error during creting adv: "{created_adv_data["price"]}" doesnt equal with added in database: "{created_adv_data["price"]}"'
+        assert created_adv_data["sellerId"] == data_1["sellerID"], f'sellerIds error: created sellerID in adv: "{created_adv_data["sellerId"]}" doesnt equal with POST\item data"{data_1["sellerID"] }"'
+        assert created_adv_data["name"] == data_1["name"], f'names error: created name in adv: "{created_adv_data["name"]}" doesnt equal with POST\item data: "{data_1["name"]}"'
+        assert created_adv_data["price"] == data_1["price"], f'prices error: created price in adv: "{created_adv_data["price"]}" doesnt equal with POST\item data: "{data_1["price"]}"'
 
 
         
