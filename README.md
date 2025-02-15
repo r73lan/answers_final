@@ -1,1 +1,2 @@
-pip install -r requirements.txt --python-version 3.12
+Python 3.13.2
+pip install -r requirements.txt
