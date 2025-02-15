@@ -10,7 +10,3 @@ class Statistic(BaseAPI):
             url=url,
         )
         return response
-
-    @property
-    def statistic(self):
-        return self.add_child(Statistic)

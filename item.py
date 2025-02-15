@@ -12,7 +12,3 @@ class Item(BaseAPI):
             **kwargs,
         )
         return response
-
-    @property
-    def item(self):
-        return self.add_child(Item)
