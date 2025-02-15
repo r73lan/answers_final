@@ -9,7 +9,7 @@
 'messages': null <br>
 **Исследование:** ```FAILED test_item.py::TestGetItem::test_get_item_by_id_if_id_doesnt_exist_code_404[b861296a-e6fc-475e-8bac-67628bc1cb58] - jsonschema.exceptions.ValidationError: None is not of type 'object'``` <br> 
 
-### Метод ```GET \item``` при запросе с id несуществующего объявления не соответствует json-схеме>
+### II. Метод ```GET \item``` при запросе с id несуществующего объявления не соответствует json-схеме>
 
 #### Тест-кейс:
 1. Отправить запрос https://qa-internship.avito.com/api/1/statistic/2ae39465-fec1-48b8-97c8-81e6f931c661   
