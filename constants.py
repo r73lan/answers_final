@@ -1,0 +1,1 @@
+HOST = r'https://qa-internship.avito.com/api/1'
